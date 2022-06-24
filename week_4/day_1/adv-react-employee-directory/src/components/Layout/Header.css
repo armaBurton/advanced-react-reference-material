@@ -1,0 +1,42 @@
+.header {
+  display: grid;
+  grid: 70px / 1fr 1fr;
+  align-items: center;
+  justify-items: space-around;
+  border-bottom: 2px solid var(--tertiary);
+  padding: 10px;
+}
+
+.brand {
+  display: grid;
+  grid: 1fr / 70px 2fr;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand img {
+  max-width: 70px;
+}
+
+.authStatus {
+  text-align: right;
+  display: grid;
+  grid: 0.25fr 1fr / 1fr 1fr;
+  grid-auto-flow: column;
+  justify-self: right;
+  align-items: center;
+}
+
+.authButton {
+  margin-left: 1rem;
+  grid-row: span 2;
+}
+
+.notSignedIn {
+  grid-row: span 2;
+}
+
+.signedInAs {
+  font-size: smaller;
+  color: var(--quaternary);
+}

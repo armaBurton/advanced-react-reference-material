@@ -1,0 +1,15 @@
+.suggestionDetail {
+
+  p {
+    margin: 10px 0;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .byline {
+    font-size: .8em;
+    margin-bottom: 20px; 
+  }
+}

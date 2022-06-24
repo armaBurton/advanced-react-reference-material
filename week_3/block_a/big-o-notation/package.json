@@ -1,0 +1,32 @@
+{
+  "name": "big-o-notation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest --verbose --runInBand --testLocationInResults",
+    "test:watch": "npm run test -- --watch",
+    "start": "node index.js",
+    "start:watch": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@types/jest": "^27.5.0",
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cross-env": "^7.0.3"
+  }
+}

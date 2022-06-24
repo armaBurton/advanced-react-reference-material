@@ -1,0 +1,22 @@
+html,
+body {
+  background-color: #fefefe;
+  font-family: 'Comic Sans MS';
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+ul a {
+  color: orange;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: green;
+}

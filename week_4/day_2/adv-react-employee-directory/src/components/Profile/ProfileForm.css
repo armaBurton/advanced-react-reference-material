@@ -1,0 +1,25 @@
+.form {
+  display: grid;
+  gap: 1rem;
+  border: 2px solid var(--tertiary);
+  width: 400px;
+  padding: 10px 20px 20px;
+}
+
+.formSection {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.input {
+  padding: 7px 10px;
+  border: 1px solid var(--primary);
+  font-size: 1.1rem;
+  font-family: var(--font-regular);
+}
+
+.error {
+  color: rgb(253, 71, 85);
+  text-align: center;
+  margin: 0 0 10px;
+}

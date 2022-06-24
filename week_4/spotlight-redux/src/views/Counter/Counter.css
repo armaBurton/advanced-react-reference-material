@@ -1,0 +1,9 @@
+.counter {
+  button {
+    margin: 5px;
+  }
+
+  span {
+    margin: 0 15px;
+  }
+}
